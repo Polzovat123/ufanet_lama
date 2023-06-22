@@ -1,5 +1,4 @@
 # ufanet_lama
-
 ![Image Alt Text](logo.png)
 Ufanet Research
 Summer Practice Plan: Realization & Implementation of LLM in Business Process
