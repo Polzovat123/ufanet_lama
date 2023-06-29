@@ -24,6 +24,12 @@ def decrypt_data(encrypted_data, key):
 class InterfaceCyberSecurityEncoder:
     def encode(self, text):
         key = os.urandom(32)
+        return text, key
+
+
+class StandartCyberSecurityEncoder(InterfaceCyberSecurityEncoder):
+    def encode(self, text):
+        key = os.urandom(32)
         return encrypt_data(text, key), key
 
 
