@@ -32,6 +32,8 @@ Evaluate the model's performance using established metrics and benchmarks.
 
 ## Installation
 
+just run docker-compose up and service will be started
+
 ## Getting Started
 
 ## Example work
